@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1 Race Intelligence Dashboard | Yashda Khire</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header class="navbar">
+    <a class="logo" href="#home">🏁 F1 <span class="red-text">INTELLIGENCE</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#dashboard" class="nav-link">Dashboard</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#about" class="nav-link">About</a>
+    </nav>
+    <a href="#dashboard" class="nav-button">Explore Dashboard ↗</a>
+</header>
+<main>
+<section class="hero" id="home">
+    <div class="hero-content">
+        <div class="eyebrow"><span class="live-dot"></span> DATA-DRIVEN MOTORSPORT ANALYTICS</div>
+        <h1>BEYOND THE<br><span class="outline-text">FINISH LINE.</span></h1>
+        <p class="hero-description">
+            Discover the science behind every lap. Explore Formula 1 race data,
+            compare driver performance, and uncover insights from motorsport.
+        </p>
+        <div class="hero-buttons">
+            <a href="#dashboard" class="btn btn-primary">Explore Analytics →</a>
+            <a href="#about" class="btn btn-secondary">Learn More ↓</a>
+        </div>
+        <div class="hero-details">
+            <span>◈ Performance Analysis</span>
+            <span>▥ Interactive Visualisation</span>
+        </div>
+    </div>
+    <div class="hero-visual">
+        <div class="hero-card">
+            <div class="hero-card-top">
+                <span>RACE INTELLIGENCE</span>
+                <span>↗</span>
+            </div>
+            <div class="speedometer">
+                <div class="speedometer-inner">
+                    <span class="speed-icon">🏎️</span>
+                    <strong>F1</strong>
+                    <small>DATA ANALYTICS</small>
+                </div>
+            </div>
+            <div class="hero-card-bottom">
+                <span>PRECISION</span>
+                <span class="red-text">PERFORMANCE</span>
+                <span>STRATEGY</span>
+            </div>
+        </div>
+        <div class="floating-tag tag-one">▥ Driver Analytics</div>
+        <div class="floating-tag tag-two">🏁 Race Insights</div>
+    </div>
+    <div class="hero-background-text">FORMULA 1</div>
+</section>
+<section class="intro-section section-pad">
+    <div class="section-label"><span></span> THE PROJECT</div>
+    <div class="intro-grid">
+        <h2>DATA MEETS<br><span class="red-text">RACE STRATEGY.</span></h2>
+        <div>
+            <p>
+                Formula 1 is a sport where milliseconds matter. This project
+                offers an interactive analytics experience to explore race
+                performance, driver comparisons, team statistics, circuit
+                analysis, and other race insights.
+            </p>
+            <p>
+                Built around Tableau Public visualisation, this project
+                presents racing data through charts that make information
+                easier to explore and understand.
+            </p>
+        </div>
+    </div>
+</section>
+<section class="dashboard-section section-pad" id="dashboard">
+    <div class="section-label"><span></span> INTERACTIVE EXPERIENCE</div>
+    <div class="section-heading">
+        <div>
+            <h2>THE RACE <span class="red-text">CONTROL.</span></h2>
+            <p>Explore the published Tableau dashboard and investigate race data.</p>
+        </div>
+        <a class="btn btn-primary"
+           href="https://public.tableau.com/app/profile/yashda.khire/viz/Formula_1_Race_Intelligence_Dashboard1/Story1?publish=yes"
+           target="_blank" rel="noopener noreferrer">
+            Open Full Dashboard ↗
+        </a>
+    </div>
+    <div class="dashboard-frame">
+        <div class="dashboard-toolbar">
+            <div class="window-dots"><span></span><span></span><span></span></div>
+            <span class="dashboard-toolbar-title">FORMULA 1 / RACE INTELLIGENCE</span>
+            <span class="dashboard-status"><i></i> TABLEAU PUBLIC</span>
+        </div>
+        <div class="tableau-container">
+            <div class="embed-fallback" id="embedFallback">
+                <div class="fallback-icon">📊</div>
+                <h3>Explore the Live Tableau Dashboard</h3>
+                <p>If the embedded view does not load, open the published dashboard directly.</p>
+                <a class="btn btn-primary"
+                   href="https://public.tableau.com/app/profile/yashda.khire/viz/Formula_1_Race_Intelligence_Dashboard1/Story1?publish=yes"
+                   target="_blank" rel="noopener noreferrer">
+                    Open on Tableau Public ↗
+                </a>
+            </div>
+            <iframe
+                id="tableauFrame"
+                title="Formula 1 Race Intelligence Dashboard by Yashda Khire"
+                data-src="https://public.tableau.com/views/Formula_1_Race_Intelligence_Dashboard1/Story1?:showVizHome=no&:embed=true"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="dashboard-footer">
+            <span>Interactive Data Visualisation</span>
+            <a href="https://public.tableau.com/app/profile/yashda.khire/viz/Formula_1_Race_Intelligence_Dashboard1/Story1?publish=yes"
+               target="_blank" rel="noopener noreferrer">
+                View on Tableau Public ↗
+            </a>
+        </div>
+    </div>
+    <p class="dashboard-note">
+        An internet connection is required to view the interactive dashboard.
+    </p>
+</section>
+<section class="features-section section-pad" id="features">
+    <div class="section-label"><span></span> WHAT YOU CAN EXPLORE</div>
+    <div class="section-heading features-heading">
+        <div>
+            <h2>EVERY DETAIL.<br><span class="red-text">EVERY ADVANTAGE.</span></h2>
+            <p>Explore the key analytical perspectives of Formula 1 racing.</p>
+        </div>
+    </div>
+    <div class="features-grid">
+        <article class="feature-card">
+            <div class="feature-number">01</div>
+            <div class="feature-icon">🏎️</div>
+            <h3>Driver Performance</h3>
+            <p>Explore driver comparisons and performance indicators available in the dashboard.</p>
+            <a href="#dashboard" class="feature-link">Explore Data →</a>
+        </article>
+        <article class="feature-card">
+            <div class="feature-number">02</div>
+            <div class="feature-icon">🏁</div>
+            <h3>Race Analysis</h3>
+            <p>Investigate race trends and compare the metrics included in the visualisation.</p>
+            <a href="#dashboard" class="feature-link">Explore Data →</a>
+        </article>
+        <article class="feature-card">
+            <div class="feature-number">03</div>
+            <div class="feature-icon">♧</div>
+            <h3>Team Analysis</h3>
+            <p>Compare constructor teams and examine team performance information.</p>
+            <a href="#dashboard" class="feature-link">Explore Data →</a>
+        </article>
+        <article class="feature-card">
+            <div class="feature-number">04</div>
+            <div class="feature-icon">⏱️</div>
+            <h3>Pit Stop Analysis</h3>
+            <p>Investigate pit stop information and its role in race strategy.</p>
+            <a href="#dashboard" class="feature-link">Explore Data →</a>
+        </article>
+        <article class="feature-card">
+            <div class="feature-number">05</div>
+            <div class="feature-icon">▱</div>
+            <h3>Circuit Analysis</h3>
+            <p>Explore circuit information and the race metrics available for analysis.</p>
+            <a href="#dashboard" class="feature-link">Explore Data →</a>
+        </article>
+        <article class="feature-card">
+            <div class="feature-number">06</div>
+            <div class="feature-icon">▥</div>
+            <h3>Data Visualisation</h3>
+            <p>Use interactive charts and visual summaries to explore racing information.</p>
+            <a href="#dashboard" class="feature-link">Explore Data →</a>
+        </article>
+    </div>
+</section>
+<section class="about-section section-pad" id="about">
+    <div class="about-content">
+        <div class="section-label"><span></span> ABOUT THE PROJECT</div>
+        <h2>TURNING RACE DATA<br>INTO <span class="red-text">INSIGHTS.</span></h2>
+        <p>
+            Formula 1 Race Intelligence Dashboard is a data visualisation
+            project focused on exploring motorsport analytics through
+            interactive charts and graphical representations.
+        </p>
+        <p>
+            The project uses Tableau Public to present race-related
+            information in an accessible format, making comparisons,
+            patterns, and performance metrics easier to investigate.
+        </p>
+        <div class="technology-list">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Tableau Public</span>
+        </div>
+    </div>
+    <div class="about-card">
+        <div class="about-card-icon">🏁</div>
+        <span class="about-card-label">PROJECT DEVELOPED BY</span>
+        <h3>Yashda Khire</h3>
+        <div class="about-card-line"></div>
+        <p>Formula 1 Race Intelligence Dashboard</p>
+        <a href="https://public.tableau.com/app/profile/yashda.khire/viz/Formula_1_Race_Intelligence_Dashboard1/Story1?publish=yes"
+           target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            View Tableau Project ↗
+        </a>
+    </div>
+</section>
+<section class="cta-section section-pad">
+    <div class="section-label"><span></span> READY TO EXPLORE?</div>
+    <h2>THE DATA NEVER<br><span class="red-text">STOPS RACING.</span></h2>
+    <p>
+        Dive into the numbers behind Formula 1 and discover the story behind performance.
+    </p>
+    <a href="https://public.tableau.com/app/profile/yashda.khire/viz/Formula_1_Race_Intelligence_Dashboard1/Story1?publish=yes"
+       target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+        Launch Dashboard ↗
+    </a>
+</section>
+</main>
+<footer class="footer">
+    <a class="logo footer-logo" href="#home">🏁 F1 <span class="red-text">INTELLIGENCE</span></a>
+    <p>Formula 1 Race Intelligence Dashboard | Created by Yashda Khire</p>
+    <a href="#home" class="back-to-top" aria-label="Back to top">↑</a>
+</footer>
+</body>
+</html>
